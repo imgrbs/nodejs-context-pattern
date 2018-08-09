@@ -1,0 +1,29 @@
+{
+  "name": "node-mvc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Keerati <keerati.jear@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "server": "babel-node server.js",
+    "test": "mocha --compilers js:babel-core/register --require babel-polyfill"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "express": "^4.16.3",
+    "mocha": "^5.2.0",
+    "sinon": "^6.1.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.6",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "nodemon": "^1.18.3"
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  }
+}
